@@ -1,6 +1,6 @@
 # EchoEngine
 
-A single message queue is used for exchange of data. Every message is addressed to a particular task and the return address is also given.
+A single message queue is used for exchange of data. Every message is addressed to a particular task and the return address is also given. The program was tested by giving different testcases like a, A, $ which returned A, a, $ as expected.
 
 # Performance
 

@@ -1,6 +1,6 @@
 # DatabaseEngine
 
-Similar to echo engine. The file is transferred in packets.
+Similar to echo engine. The file is transferred in packets. The program was tested so that it can transfer different files and also give an error message when file is not found.
 
 # Performance
 
