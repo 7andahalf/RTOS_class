@@ -1,6 +1,6 @@
 # Segway - Robot that balances on 2 wheels
 
-![Prototype 0.1](image.jpg "Prototype 0.1")
+![Prototype 0.1](image.jpg "Prototype 0.1" =250x)
 
 ## Problem statement
 The main goal of this project is to create a simple robot that balances only on two wheels. The robot will have a vertical profile and two wheels whose axes lie along the same line. The robot must try its best to remain balanced.
