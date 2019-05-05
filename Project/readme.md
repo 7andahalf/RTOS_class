@@ -1,5 +1,7 @@
 # Segway - Robot that balances on 2 wheels
 
+![Prototype 0.1](image.jpg "Prototype 0.1")
+
 ## Problem statement
 The main goal of this project is to create a simple robot that balances only on two wheels. The robot will have a vertical profile and two wheels whose axes lie along the same line. The robot must try its best to remain balanced.
 
@@ -12,7 +14,9 @@ The second problem of correcting the inclination could be achieved by appropriat
 
 ## Challenges
 
-Since this is a hardware project some assembly was required. The sensor, MPU6050 must be read as fast as possible in order to estimate changes in its inclination and act as soon as possible. Along with this sensor reading, the robot will have to perform other functions e.g. actuating the wheels appropriately to maintain balance. Hence, accurate timekeeping is necessary to keep all the functions going on smoothly.
+Since this is a hardware project some assembly was required.
+
+The sensor, MPU6050 must be read as fast as possible in order to estimate changes in its inclination and act as soon as possible. Along with this sensor reading, the robot will have to perform other functions e.g. actuating the wheels appropriately to maintain balance. Hence, accurate timekeeping is necessary to keep all the functions going on smoothly.
 
 The other challenge is to know when to actuate the motors. A crude algorithm that only takes the proportion or the sign of error will lead the system into instability. Hence a proportional derivative integral controller (PID) was to designed and used in the system. Estimating the constants of the PID controller is also a challenge as it is experimental.
 
@@ -40,7 +44,7 @@ One of the main reasons why the robot is not able to maintain balance for a long
 
 ## References
 
-* Code: https://github.com/7andahalf/
+* Code: https://github.com/7andahalf/RTOS_class/tree/master/Project
 * https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/
 * https://playground.arduino.cc/Code/PIDLibrary/
 * https://create.arduino.cc/projecthub/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc
